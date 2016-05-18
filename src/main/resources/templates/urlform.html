@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>URL Shortener</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>URL Shortener</h1>
+    <form action="#" th:object="${urlform}" method="post">
+        <p>URL: <input type="text" th:field="*{url}" /></p>
+        <p><button type="submit" th:formaction="@{/urlshortener}">Get Short URL </button>
+         <button type="submit" th:formaction="@{/revert}">Get Original URL </button>
+         <input type="reset" value="Reset" /></p>
+    </form>
+</body>
+</html>
