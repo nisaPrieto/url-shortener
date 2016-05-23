@@ -15,4 +15,4 @@ URL shortener program.
 * Install JDK 1.8
 * Install Maven 3.0
 * To run the project: mvn spring-boot:run
-* To import the project to eclipe: mvn eclipse:eclipse
+* To import the project to eclipse: mvn eclipse:eclipse
